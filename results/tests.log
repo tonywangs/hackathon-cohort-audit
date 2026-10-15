@@ -1,0 +1,27 @@
+test_cancelled_write_cleans_up (tests.test_cli.CLITests.test_cancelled_write_cleans_up) ... ok
+test_empty_directory_race (tests.test_cli.CLITests.test_empty_directory_race) ... ok
+test_end_to_end_and_repeated_hashes (tests.test_cli.CLITests.test_end_to_end_and_repeated_hashes) ... ok
+test_existing_output_and_symlink (tests.test_cli.CLITests.test_existing_output_and_symlink) ... ok
+test_external_process_cancellation (tests.test_cli.CLITests.test_external_process_cancellation) ... ok
+test_installed_zipapp_offline (tests.test_cli.CLITests.test_installed_zipapp_offline) ... ok
+test_publication_race_does_not_replace_competitor (tests.test_cli.CLITests.test_publication_race_does_not_replace_competitor) ... ok
+test_serialization_write_and_publication_failures_clean_up (tests.test_cli.CLITests.test_serialization_write_and_publication_failures_clean_up) ... ok
+test_short_timeout_and_invalid_budget (tests.test_cli.CLITests.test_short_timeout_and_invalid_budget) ... ok
+test_timeout_during_write_cleans_up (tests.test_cli.CLITests.test_timeout_during_write_cleans_up) ... ok
+test_300_seeded_datasets (tests.test_core.SeededOracleTests.test_300_seeded_datasets) ... ok
+test_synthetic_reversal_and_missingness (tests.test_core.SeededOracleTests.test_synthetic_reversal_and_missingness) ... ok
+test_ambiguous_duplicates (tests.test_core.ValidationTests.test_ambiguous_duplicates) ... ok
+test_cohort_validation (tests.test_core.ValidationTests.test_cohort_validation) ... ok
+test_file_limits_and_types (tests.test_core.ValidationTests.test_file_limits_and_types) ... ok
+test_hostile_text_is_inert (tests.test_core.ValidationTests.test_hostile_text_is_inert) ... ok
+test_invalid_csv_and_encoding (tests.test_core.ValidationTests.test_invalid_csv_and_encoding) ... ok
+test_invalid_fields (tests.test_core.ValidationTests.test_invalid_fields) ... ok
+test_limits (tests.test_core.ValidationTests.test_limits) ... ok
+test_no_technologies_and_empty_group (tests.test_core.ValidationTests.test_no_technologies_and_empty_group) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 18.219s
+
+OK
+{"status":"passed","browser":"145.0.7632.6","assertions":"filters, before/after, event rates, pagination, downloads, keyboard, empty data, hostile text, 360px viewport","external_requests":0,"errors":[]}
+PASS: unit/oracle tests, regenerated fixtures, Chromium offline interaction, installed CLI, repeated workload hashes, unchanged inputs. Publication candidate: 27 files, 141695 bytes.

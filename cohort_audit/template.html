@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-%%CSP_SCRIPT%%'; style-src 'sha256-%%CSP_STYLE%%'; img-src 'none'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cohort Audit · observed technology mentions</title><style>%%STYLE%%</style></head>
+<body><header><span class="eyebrow">LOCAL DATA / AUDITABLE EVIDENCE</span><h1>Cohort Audit</h1><p>What changed in the records — and what changed in the sample?</p></header>
+<main><aside id="notice"></aside><noscript>This interactive report requires JavaScript. All evidence is also in report.json.</noscript>
+<section aria-labelledby="selection-heading"><h2 id="selection-heading">Compare supplied cohorts</h2>
+<div class="controls"><label>Before<select id="before"></select></label><label>After<select id="after"></select></label><label>Technology filter<input id="filter" type="search" placeholder="e.g. python" maxlength="100"></label></div>
+<p id="diagnostics"></p><div id="coverage" class="cards"></div>
+<div class="scroll"><table id="trends"><caption>Project-level mentions · select a technology to inspect evidence</caption><thead><tr><th scope="col">Technology</th><th scope="col">Before</th><th scope="col">After</th><th scope="col">Change (pp)</th><th scope="col">Common events (pp)</th><th scope="col">Equal event weight (pp)</th><th scope="col">Diagnostic</th></tr></thead><tbody></tbody></table></div><p id="trend-status" role="status"></p>
+<p>Percentages use all distinct supplied projects. “pp” means percentage points. Common-event pooling can still change composition; equal event weighting gives each nonempty shared series the same weight. Neither is a causal adjustment.</p></section>
+<section aria-labelledby="composition-heading"><h2 id="composition-heading">Coverage &amp; event composition</h2><p id="common-note"></p><label>Event technology<select id="composition-tech"></select></label>
+<p>Event rows count project/event records; their sum can exceed the distinct-project denominator. Expected totals are supplied by the importer and are not independently verified. A blank expected total means coverage is unknown.</p>
+<div class="scroll"><table id="composition"><caption>Selected cohorts by event series</caption><thead><tr><th>Side</th><th>Event / year</th><th>Observed / expected</th><th>Coverage</th><th>Complete / partial / unknown</th><th>Share of event records</th><th>Technology mentions</th></tr></thead><tbody></tbody></table></div></section>
+<section aria-labelledby="evidence-heading"><h2 id="evidence-heading">Evidence explorer</h2><div class="controls"><label>Evidence cohort<select id="evidence-group"></select></label><label>Technology<select id="evidence-tech"></select></label><label>Records<select id="evidence-mode"><option value="mentions">Contributing mentions</option><option value="all">All records (including missing labels)</option></select></label></div>
+<p>Original labels and logical CSV record numbers are preserved. Source links open only on activation; no source is fetched by this report. Repeated cross-event projects appear in separate evidence rows but count once per cohort.</p>
+<p id="evidence-status" role="status" aria-live="polite"></p><div id="evidence"></div><div class="pager"><button id="previous">Previous 25</button><button id="next">Next 25</button></div>
+<button id="download-evidence">Download filtered evidence JSON</button></section>
+<section><h2>Reproduce &amp; inspect</h2><p id="normalization"></p><p>The downloaded full audit includes raw evidence, cohort membership, aliases, input hashes, formulas’ numerators and denominators, and all comparisons. This report contains no external assets.</p><button id="download">Download full audit JSON</button><details><summary>Input fingerprints</summary><pre id="hashes"></pre></details></section>
+</main><footer>Cohort Audit 1.0 · descriptive, offline, reproducible</footer>
+<script type="application/json" id="audit-data">%%DATA%%</script><script>%%SCRIPT%%</script></body></html>

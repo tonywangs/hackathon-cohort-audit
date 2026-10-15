@@ -1,0 +1,8 @@
+cohort_id,event_id,year,expected_projects
+synthetic-reversal,high,2024,90
+synthetic-reversal,low,2024,10
+synthetic-reversal,high,2025,10
+synthetic-reversal,low,2025,90
+synthetic-coverage,coverage-a,2025,10
+synthetic-coverage,coverage-b,2025,
+synthetic-empty,empty,2025,0

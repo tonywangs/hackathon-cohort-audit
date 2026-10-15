@@ -1,0 +1,159 @@
+{
+  "environment": {
+    "cpu_count": 4,
+    "machine": "x86_64",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "rss_units": "KiB on Linux; includes Python interpreter"
+  },
+  "runs": [
+    {
+      "deterministic": true,
+      "input_sha256": {
+        "cohorts.csv": "c2a65d02c28d18a4efac7ce70f3c6e2f092f84834192e0045835727befe38e2f",
+        "projects.csv": "751891e62810b31501e70a828698f578f382ca8e765830cf85375239e2e5db96"
+      },
+      "inputs_unchanged": true,
+      "project_rows": 250,
+      "repetitions": [
+        {
+          "artifacts": {
+            "complete.json": {
+              "bytes": 268,
+              "sha256": "c30e28c21aa513ce5e078655f6ae3bc53301a907ddcaf65a66c59585e0f6248e"
+            },
+            "report.html": {
+              "bytes": 107420,
+              "sha256": "a69428bfdf046f2f3a45aea13ad4824f44359c5208ace146b43f6d88a657e5e3"
+            },
+            "report.json": {
+              "bytes": 92592,
+              "sha256": "124518953a9bacd6885f5588e2dbf96b8f2f3720c389fca82e6e6a130d02ee93"
+            }
+          },
+          "elapsed_seconds": 0.06531409081071615,
+          "peak_rss_kib": 27192,
+          "process_wall_seconds": 0.23707133391872048
+        },
+        {
+          "artifacts": {
+            "complete.json": {
+              "bytes": 268,
+              "sha256": "c30e28c21aa513ce5e078655f6ae3bc53301a907ddcaf65a66c59585e0f6248e"
+            },
+            "report.html": {
+              "bytes": 107420,
+              "sha256": "a69428bfdf046f2f3a45aea13ad4824f44359c5208ace146b43f6d88a657e5e3"
+            },
+            "report.json": {
+              "bytes": 92592,
+              "sha256": "124518953a9bacd6885f5588e2dbf96b8f2f3720c389fca82e6e6a130d02ee93"
+            }
+          },
+          "elapsed_seconds": 0.044311909936368465,
+          "peak_rss_kib": 27192,
+          "process_wall_seconds": 0.17416326003149152
+        }
+      ]
+    },
+    {
+      "deterministic": true,
+      "input_sha256": {
+        "cohorts.csv": "c2a65d02c28d18a4efac7ce70f3c6e2f092f84834192e0045835727befe38e2f",
+        "projects.csv": "b45a2282b7fa903a703f3a8c1ca3c3e81036525aad0240d416466ed67332752e"
+      },
+      "inputs_unchanged": true,
+      "project_rows": 2500,
+      "repetitions": [
+        {
+          "artifacts": {
+            "complete.json": {
+              "bytes": 269,
+              "sha256": "0e988ca43c3fea05323940afa42fa16e5a84d9f18e51800e9e6d23e552e6ab15"
+            },
+            "report.html": {
+              "bytes": 737967,
+              "sha256": "ff36c1f5ef4c3fc49f699a766007210b2b5825d0131a5ad06f542bc6f25bdd8f"
+            },
+            "report.json": {
+              "bytes": 723139,
+              "sha256": "4a482afb3e8f9da0fa491971176c67c829e0508dfeea47108f08f3e3d7f56003"
+            }
+          },
+          "elapsed_seconds": 0.36224797321483493,
+          "peak_rss_kib": 29316,
+          "process_wall_seconds": 0.5274106930010021
+        },
+        {
+          "artifacts": {
+            "complete.json": {
+              "bytes": 269,
+              "sha256": "0e988ca43c3fea05323940afa42fa16e5a84d9f18e51800e9e6d23e552e6ab15"
+            },
+            "report.html": {
+              "bytes": 737967,
+              "sha256": "ff36c1f5ef4c3fc49f699a766007210b2b5825d0131a5ad06f542bc6f25bdd8f"
+            },
+            "report.json": {
+              "bytes": 723139,
+              "sha256": "4a482afb3e8f9da0fa491971176c67c829e0508dfeea47108f08f3e3d7f56003"
+            }
+          },
+          "elapsed_seconds": 0.25445072213187814,
+          "peak_rss_kib": 29448,
+          "process_wall_seconds": 0.38430570205673575
+        }
+      ]
+    },
+    {
+      "deterministic": true,
+      "input_sha256": {
+        "cohorts.csv": "c2a65d02c28d18a4efac7ce70f3c6e2f092f84834192e0045835727befe38e2f",
+        "projects.csv": "b4d62fc90718a42f321be01141c9a6388b2c383295a6dc092d21b333e288d6fd"
+      },
+      "inputs_unchanged": true,
+      "project_rows": 5000,
+      "repetitions": [
+        {
+          "artifacts": {
+            "complete.json": {
+              "bytes": 271,
+              "sha256": "2b74108969a07e7476d5c160cebfb135bd7f31dfc18d3c5e7e2997d8de1f9ea4"
+            },
+            "report.html": {
+              "bytes": 1441662,
+              "sha256": "fb4c16dda92cfc3daa08a4f2f969a77b77c7a858ccae7eca8aec3a100567c59f"
+            },
+            "report.json": {
+              "bytes": 1426834,
+              "sha256": "db61cc6aafecc062e6d7caf34f7e9ea6a24c4a68eafc5f922fb239fbc4f89643"
+            }
+          },
+          "elapsed_seconds": 0.6461357120424509,
+          "peak_rss_kib": 37616,
+          "process_wall_seconds": 0.8062230693176389
+        },
+        {
+          "artifacts": {
+            "complete.json": {
+              "bytes": 271,
+              "sha256": "2b74108969a07e7476d5c160cebfb135bd7f31dfc18d3c5e7e2997d8de1f9ea4"
+            },
+            "report.html": {
+              "bytes": 1441662,
+              "sha256": "fb4c16dda92cfc3daa08a4f2f969a77b77c7a858ccae7eca8aec3a100567c59f"
+            },
+            "report.json": {
+              "bytes": 1426834,
+              "sha256": "db61cc6aafecc062e6d7caf34f7e9ea6a24c4a68eafc5f922fb239fbc4f89643"
+            }
+          },
+          "elapsed_seconds": 0.6799176591448486,
+          "peak_rss_kib": 37488,
+          "process_wall_seconds": 0.841261425986886
+        }
+      ]
+    }
+  ],
+  "workload": "Deterministic synthetic generator scripts/benchmark.py; 2 years \u00d7 2 event series; 17 canonical labels; no real data."
+}

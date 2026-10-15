@@ -1,0 +1,7 @@
+{
+  "assertions": "filters, before/after, event rates, pagination, downloads, keyboard, empty data, hostile text, 360px viewport",
+  "browser": "145.0.7632.6",
+  "errors": [],
+  "external_requests": 0,
+  "status": "passed"
+}

@@ -1,0 +1,19 @@
+{
+  "expected": {
+    "aggregate_delta": -0.38,
+    "equal_event_delta": 0.1,
+    "high_delta": 0.1,
+    "low_delta": 0.1,
+    "python_after": 0.36,
+    "python_before": 0.74
+  },
+  "files": {
+    "cohorts.csv": "6ccba0d6d3a0074b4e63e8c30b3f214086b58375503db7a632e7808c56972141",
+    "projects.csv": "04dd1b6f17c84d460aef421f083396216d24a7f148c906e07d0698c89e1322d9"
+  },
+  "generator": "scripts/make_example.py",
+  "kind": "synthetic",
+  "license": "CC0-1.0 (synthetic CSV fixtures only)",
+  "seed": null,
+  "selection": "All generated rows; no real people, projects, or events."
+}

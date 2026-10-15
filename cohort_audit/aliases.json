@@ -1,0 +1,10 @@
+{
+  "version": "2026-10-15.1",
+  "aliases": {
+    "js": "javascript", "javascript": "javascript",
+    "python": "python", "python3": "python", "python 3": "python",
+    "react": "react", "react.js": "react", "reactjs": "react",
+    "node.js": "node.js", "nodejs": "node.js",
+    "typescript": "typescript", "ts": "typescript"
+  }
+}
